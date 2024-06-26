@@ -1,8 +1,9 @@
 //your JS code here. If required.
 Object.prototype.getKeys=function(){
-	return Object.keys(student);
+	let x=Object.keys(student);
+	console.log(x);
 };
 let student={
 	name:"hz";
 }
-console.log(student.getKeys());
+// console.log(student.getKeys());
